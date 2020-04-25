@@ -1,0 +1,9 @@
+Modes
+<Esc>   nomal
+i       insert
+v       visual
+R       replace
+:       command-line
+<C-v>   visual-block
+chap 4 files P53
+正在编辑文件时要打开另一个文件 :e filename

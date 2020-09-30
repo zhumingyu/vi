@@ -6,4 +6,35 @@ R       replace
 :       command-line
 <C-v>   visual-block
 chap 4 files P53
+
+Opening Files
+打开一个文件或多个
+1.vim file.txt
+2.vim file1.txt file2.txt
 正在编辑文件时要打开另一个文件 :e filename
+
+File Formats
+dos mac unix三种，待查P54
+
+Inserting Files
+
+Moving Between Files P56
+:bn allow us to move to the next buffer in the list or we can specify a numeric value and move directly to that nth buffer.
+:bp works in exactly the same way as bn but in reverse.
+:ls list all buffers that are available
+:b# a convenience to let you move quickly to the alternative buffer P56
+:bf to the first buffer in the lists
+:bl to the last buffer in the lists
+:bm to the next modified buffer
+
+Saving Files
+
+Creating New Files P57
+:new create a new empty buffer within a horzontal split window
+:enew create a new empty buffer but within the current window/viewport.(不会产生分割)
+:vnew create a new empty buffer with a vertical split window
+:tabnew create a new empty buffer within a new tab
+
+Creating New Files from a Template P60
+
+Creating a Scratch Buffer P62
